@@ -1,0 +1,29 @@
+{
+  "name": "insert-buckazoid",
+  "version": "1.0.0",
+  "description": "Roland MT-32 text display .syx generator.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moriczgergo/insert-buckazoid.git"
+  },
+  "keywords": [
+    "roland",
+    "mt-32",
+    ".syx",
+    "text",
+    "display",
+    "generator",
+    "Roland",
+    "MT-32"
+  ],
+  "author": "skiilaa",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/moriczgergo/insert-buckazoid/issues"
+  },
+  "homepage": "https://github.com/moriczgergo/insert-buckazoid#readme"
+}
