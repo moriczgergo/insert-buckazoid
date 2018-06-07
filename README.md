@@ -5,7 +5,7 @@ Ever played Space Quest 3? Insert a buckazoid your own way!
 
 # Usage
 
-Clone this repository, and run the node script.
+To use insert-buckazoid, install it (`npm i -g insert-buckazoid`), and launch it (`insert-buckazoid`).
 
 ```
 What text do you want to show? 
