@@ -42,7 +42,7 @@ function api(text) {
     var syx = [0xF0, 0x41, 0x10, 0x16, 0x12, 0x20, 0x00, 0x00];
     // For each letter in input (until 20th character)
     for (var i = 0, len = text.length; i < len && i < 20; i++){
-        syx.push(text[i].toString().charCodeAt(0)); // Add hex code (ASCII) to .syx contents
+        syx.push(text.charCodeAt(i)); // Add hex code (ASCII) to .syx contents
     }
     syx.push(RolandChecksum(syx.slice(5))); // Checksum should not include the first 5 bytes of the command.
     syx.push(0xF7); // Add end of sysex-message byte
