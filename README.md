@@ -5,7 +5,11 @@ Ever played Space Quest 3? Insert a buckazoid your own way!
 
 # Usage
 
+<<<<<<< HEAD
 To use insert-buckazoid, install it (`npm i -g insert-buckazoid`), and launch it (`insert-buckazoid`).
+=======
+Clone this repository, and run `index.js`.
+>>>>>>> c2905d2 (Expanded README.)
 
 ```
 What text do you want to show? 
@@ -51,26 +55,7 @@ Next, we have these three bytes to indicate that we want to display something on
 
 ## Checksum calculation
 
-The checksum calculation took a couple of frustrating hours for me, because I couldn't find information that worked.
-
-These are the bytes that we need to checksum:
-
-* `20 00 00` - Display command
-* `74 65 73 74` - HEX Code of "test" (ASCII)
-
-We are going to go ahead and add these together:
-
-`0x20 + 0x00 + 0x00 + 0x74 + 0x65 + 0x73 + 0x74`
-
-To calculate the checksum, first, we need to checksum mod 128.
-
-`checksum % 128`
-
-Finally, we need to subtract the remainder from 128.
-
-`128 - checksum`
-
-There we go! We have our checksum!
+Documentation for this has been moved [here](https://github.com/moriczgergo/roland-checksum#calculation).
 
 # Emulators
 
